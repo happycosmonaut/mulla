@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic"
+          rel="stylesheet">
+          <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">      -->
+          <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">      -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">     
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/select.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/matherial.css">
+    <link rel="stylesheet" href="css/radio.css">
+    <link rel="stylesheet" href="css/switch.css">
+    <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/dataTable.css">
+    <title>Mulla</title>
+</head>
+<body id="body_settings" style="overflow: auto;">
+
+<!-- Header Start -->
+
+<div id="header"></div>
+
+<!-- Header End -->
+
+<div class="middle_settings_container">
+   <div id="center_block" class="center_block h_list">
+
+        <!-- Left menu start -->
+
+        <div id="left_menu" class="left">
+            <div id="deals_item" class="item button active" onclick="getUrl('settings.html'); clickLeftMenu(this);">
+                Deals
+            </div>
+            <div id="deals_map_item" class="item button light_gray_15_font" onclick="getUrl('settings_deals_map.html'); clickLeftMenu(this);">
+                Deals Map
+            </div>
+            <div id="info_item" class="item button light_gray_15_font" onclick="getUrl('settings_user_info.html'); clickLeftMenu(this);">
+                User Info
+            </div>
+            <div id="create_deals_item" class="item button light_gray_15_font" onclick="getUrl('settings_create_deal.html'); clickLeftMenu(this);">
+                Create Deal
+            </div>
+        </div>
+
+        <!-- Left menu end -->
+        
+        <!-- Deals block start -->
+
+        <div id="deals_block" class="right" style="display: block">
+            <div class="h_list top_row">
+                <div class="empty_item">
+                    <div class="title gray_12_font">
+                        BUY/SELL
+                    </div>
+                    <div class="custom-select">
+                        <select class="gray_18_font">
+                            <option value="0">Buy</option>
+                            <option value="1">Buy</option>
+                            <option value="2">Sell</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="empty_item">
+                    <div class="title gray_12_font">
+                        CURRENCY
+                    </div>
+                    <div class="custom-select">
+                        <select class="gray_18_font">
+                            <option value="0">BTC</option>
+                            <option value="1">BTC</option>
+                            <option value="2">LTC</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="empty_item">
+                    <div class="title gray_12_font">
+                        LOCATION
+                    </div>
+                    <input class="gray_18_font" type="text" placeholder="Location">
+                </div>
+            </div>
+            
+            <!-- Data table start -->
+            
+            <div class="table">
+                <table id="dealsTable" class="table"></table>
+            </div>
+            
+            <!-- Data table end-->
+            <!-- </div> -->
+        </div>
+
+        <!-- Deals block end -->
+
+    </div>
+</div>
+
+<!-- Footer Start -->
+
+<div id="footer"></div>
+
+<!-- Footer End -->
+
+<!-- JavaScript Start -->
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="js/jquery.dataTables.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/ResizeSensor.js"></script>
+<script>
+    var x, i, j, selElmnt, a, b, c;
+    /*look for any elements with the class "custom-select":*/
+    x = document.getElementsByClassName("custom-select");
+    for (i = 0; i < x.length; i++) {
+        selElmnt = x[i].getElementsByTagName("select")[0];
+        /*for each element, create a new DIV that will act as the selected item:*/
+        a = document.createElement("DIV");
+        a.setAttribute("class", "select-selected");
+        a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+        x[i].appendChild(a);
+        /*for each element, create a new DIV that will contain the option list:*/
+        b = document.createElement("DIV");
+        b.setAttribute("class", "select-items select-hide");
+        for (j = 1; j < selElmnt.length; j++) {
+            /*for each option in the original select element,
+            create a new DIV that will act as an option item:*/
+            c = document.createElement("DIV");
+            c.innerHTML = selElmnt.options[j].innerHTML;
+            c.addEventListener("click", function (e) {
+                /*when an item is clicked, update the original select box,
+                and the selected item:*/
+                var i, s, h;
+                s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+                h = this.parentNode.previousSibling;
+                for (i = 0; i < s.length; i++) {
+                    if (s.options[i].innerHTML == this.innerHTML) {
+                        s.selectedIndex = i;
+                        h.innerHTML = this.innerHTML;
+                        break;
+                    }
+                }
+                h.click();
+            });
+            b.appendChild(c);
+        }
+        x[i].appendChild(b);
+        a.addEventListener("click", function (e) {
+            /*when the select box is clicked, close any other select boxes,
+            and open/close the current select box:*/
+            e.stopPropagation();
+            closeAllSelect(this);
+            this.nextSibling.classList.toggle("select-hide");
+            this.classList.toggle("select-arrow-active");
+        });
+    }
+
+
+    function closeAllSelect(elmnt) {
+        /*a function that will close all select boxes in the document,
+        except the current select box:*/
+        var x, y, i, arrNo = [];
+        x = document.getElementsByClassName("select-items");
+        y = document.getElementsByClassName("select-selected");
+        for (i = 0; i < y.length; i++) {
+            if (elmnt == y[i]) {
+                arrNo.push(i)
+            } else {
+                y[i].classList.remove("select-arrow-active");
+            }
+        }
+        for (i = 0; i < x.length; i++) {
+            if (arrNo.indexOf(i)) {
+                x[i].classList.add("select-hide");
+            }
+        }
+    }
+    /*if the user clicks anywhere outside the select box,
+    then close all select boxes:*/
+    document.addEventListener("click", closeAllSelect);
+</script>
+
+<!-- JavaScript End -->
+
+</body>
+</html>

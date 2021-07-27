@@ -1,0 +1,167 @@
+<!-- Alerts Start -->
+
+<div id="completion_deal_alert" class="alert_container" style="display: none;">
+    <div class="small_alert alert_block">
+        <div class="v_list">
+            <div class="title alert_title_font">
+                Completion of the deal
+            </div>
+            <div class="text alert_text_font">
+                Send money using the data below to complete the transaction:
+            </div>
+            <div class="sec_code">
+                <div>
+                    15VcQjcH7H7oRvXZvAwrtbSixKdQyf7Fw4
+                </div>
+            </div>
+            <div class="h_list">
+                <div class="empty_item">
+                </div>
+                <div class="item alert_button button alert_ok_font" onclick="closeAlert()">
+                    OK
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="create_deal_alert" class="alert_container" style="display: none;">
+    <div class="big_form_alert alert_block">
+        <div class="v_list">
+            <div class="title alert_title_font">
+                Create Deal
+            </div>
+            <div class="v_list forms">
+                <div class="item h_list row">
+                    <div class="item empty_item">
+                        <div class="group">
+                            <input type="text" required>
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label class="label_input_text">Amount</label>
+                        </div>
+                    </div>
+                    <div class="item empty_item">
+                        <div class="group">
+                            <input type="text" required>
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label class="label_input_text">Price</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="item h_list row">
+                    <div class="item empty_item">
+                        <div class="group">
+                            <input type="text" required>
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label class="label_input_text">Payment method</label>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="custom-select">
+                            <select class="gray_18_font">
+                                <option value="0">Card</option>
+                                <option value="1">Card</option>
+                                <option value="2">Cash</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="item group">
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label class="label_input_text">Deal Information</label>
+                </div>
+            </div>
+            <div class="h_list">
+                <div class="empty_item">
+                </div>
+                <div class="item alert_button button alert_alert_cancel_font_font" onclick="closeAlert()">
+                    CANCEL
+                </div>
+                <div class="item alert_button button alert_ok_font" onclick="openCompletionDeal()">
+                    CREATE
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="add_card_alert" class="alert_container" style="display: none">
+    <div class="big_form_alert alert_block">
+        <div class="v_list">
+            <div class="title alert_title_font">
+                Card, paypall or another info about your real money
+            </div>
+            <div class="text alert_text_font">
+                You can add you card in you bio, it would only shown for your buyer in your deal.
+            </div>
+            <div class="v_list forms">
+                <div class="item h_list row">
+                    <div class="item empty_item">
+                        <div class="group">
+                            <input type="text" required>
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label class="label_input_text">Your bank</label>
+                        </div>
+                    </div>
+                    <div class="item empty_item">
+                        <div class="group">
+                            <input type="text" required>
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label class="label_input_text">Your Name</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="item group">
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label class="label_input_text">Card Number</label>
+                </div>
+            </div>
+            <div class="h_list">
+                <div class="empty_item">
+                </div>
+                <div class="item alert_button button alert_alert_cancel_font_font" onclick="closeAlert()">
+                    CANCEL
+                </div>
+                <div class="item alert_button button alert_ok_font" onclick="closeAlert()">
+                    ADD
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Alerts End -->
+
+<div class="top_settings_conteiner">
+    <div class="center_block yellow_block">
+        <div class="h_list">
+            <div class="logo item"></div>
+            <div class="logo_text item big_bold_subtitle_font">
+                MULLA.xyz
+            </div>
+            <div class="empty_item">
+
+            </div>
+            <a href="#" class="text item bold_black_14_font">
+                ABOUT US
+            </a>
+            <a href="#" class="text item bold_black_14_font">
+                DEALS
+            </a>
+            <a href="#" class="text item bold_black_14_font">
+                CONTACTS
+            </a>
+            <div class="item_before_lang"></div>
+            <button class="item sign_in_button button sign_in_font" onclick="openSignInForm()">
+                SIGN OUT
+            </button>
+        </div>
+    </div>
+</div>

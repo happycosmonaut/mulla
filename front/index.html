@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/select.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/matherial.css">
+    <title>Mulla</title>
+</head>
+<body id="body" class="main_body" style="overflow: auto">
+<div id="form_sign_up_container" class="alert_container" style="display: none">
+    <div class="form_block alert_block">
+        <div class="v_list">
+            <div class="h_list">
+                <div class="item title sign_up_font"> Sign up</div>
+                <div class="item button close_button" onclick="closeSignUpForm()"></div>
+            </div>
+            <form method="get" action="/login/">
+            <div class="item">
+                <div class="group">
+                    <input type="text" name="email" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label class="label_input_text">Email</label>
+                </div>
+            </div>
+            <div class="item">
+                <div class="group">
+                    <input type="text" name="password" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label class="label_input_text">Password</label>
+                </div>
+            </div>
+            <div class="item">
+                <div class="group">
+                    <input type="text" name="confirm_password" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label class="label_input_text">Confirm Password</label>
+                </div>
+            </div>
+            
+
+            <button class="sign_up_button button black_19_font" type="submit">
+                Sign Up
+            </button>
+            </form>
+            <button class="google_button button white_19_font">
+                Sign up with Google
+            </button>
+
+            <button class="telegram_button button white_19_font">
+                Sign up with Telegram
+            </button>
+
+            <div class="item sign_in_text button gray_18_underline_font" onclick="displayButtonSignIn()">
+                Sign in
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="form_sign_in_container" class="alert_container" style="display: none">
+    <div class="form_block alert_block">
+        <div class="v_list">
+            <div class="h_list">
+                <div class="item title sign_up_font"> Sign in</div>
+                <div class="item button close_button" onclick="closeSignInForm()"></div>
+            </div>
+            <form method="get" action="/login/">
+             <div class="item">
+                <div class="group">
+                    <input type="text" name="email" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label class="label_input_text">Email</label>
+                </div>
+            </div>
+            <div class="item">
+                <div class="group">
+                    <input type="text" name="password" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label class="label_input_text">Password</label>
+
+                </div> 
+            </div>
+            <div class="item link">
+                <a href="#" class="gray_underline_16_font">
+                    Forgot password?
+                </a>
+            </div>
+
+            <button class="sign_up_button button black_19_font" type="submit">
+                Sign In
+            </button>
+        </form>
+            <button class="google_button button white_19_font">
+                Sign in with Google
+            </button>
+
+            <button class="telegram_button button white_19_font">
+                Sign in with Telegram
+            </button>
+
+            <div class="item sign_in_text button gray_18_underline_font" onclick="displayButtonSignUp()">
+                Sign Up
+            </div>
+        </div>
+    </div>
+</div> 
+<div class="top_container">
+    <div class="center_block">
+        <div class="h_list">
+            <div class="logo item"></div>
+            <div class="logo_text item big_bold_subtitle_font">
+                MULLA.xyz
+            </div>
+            <div class="empty_item">
+
+            </div>
+            <a href="#" class="text item bold_black_14_font">
+                ABOUT US
+            </a>
+            <a href="#" class="text item bold_black_14_font">
+                DEALS
+            </a>
+            <a href="#" class="text item bold_black_14_font">
+                CONTACTS
+            </a>
+            <div class="item_before_lang"></div>
+            <button id="sign_in_button" class="item sign_in_button sign_in_font" onclick="openSignInForm()" style="display: block">
+                Sign In
+            </button>
+            <button id="sign_up_button" class="item sign_in_button sign_in_font" onclick="openSignUpForm()" style="display: none">
+                Sign Up
+            </button>
+        </div>
+        <div class="container">
+            <div class="left_block">
+                <div class="title big_title_font">
+                    Безопасный обмен
+                    криптовалюты по
+                    всему миру
+                </div>
+                <div class="subtitle big_bold_darkgray_subtitle_font">
+                    Обменивайте криптовалюту безопасно
+                    и найдите на карте объявления
+                    в удобном месте.
+                </div>
+            </div>
+            <div class="right_block">
+                <div class="white_box">
+                    <form>
+                        <div class="v_list">
+                            <div class="h_list gray_list">
+                                <div class="left">
+                                    <input class="empty_item gray_18_font" type="text" placeholder="You have (amount)">
+                                </div>
+                                <div class="right">
+                                    <div class="custom-select">
+                                        <select class="gray_18_font">
+                                            <option value="0">BTC</option>
+                                            <option value="1">BTC</option>
+                                            <option value="2">LTC</option>
+                                        </select>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="h_list second_row">
+                                <div class="left">
+                                    <div class="title black_18_font">
+                                        Buy/Sell:
+                                    </div>
+                                    <div class="custom-select">
+                                        <select class="gray_18_font">
+                                            <option value="0">Buy</option>
+                                            <option value="1">Buy</option>
+                                            <option value="2">Sell</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="title black_18_font">
+                                        Type of deal:
+                                    </div>
+                                    <div class="custom-select">
+                                        <select class="gray_18_font">
+                                            <option value="0">Online</option>
+                                            <option value="1">Online</option>
+                                            <option value="2">Offline</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item third_row">
+                                <div class="title black_18_font">
+                                    Guarantee:
+                                </div>
+                                <div class="custom-select">
+                                    <select class="gray_18_font">
+                                        <option value="0">Enable (0.5% 0.001234 BTC)</option>
+                                        <option value="1">Enable (0.5% 0.001234 BTC)</option>
+                                        <option value="2">Enable (0.25% 0.001234 BTC)</option>
+                                        <option value="3">Enable (0.12% 0.001234 BTC)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="h_list">
+                            <button class="button black_19_font">
+                                КУПИТЬ
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    var x, i, j, selElmnt, a, b, c;
+    /*look for any elements with the class "custom-select":*/
+    x = document.getElementsByClassName("custom-select");
+    for (i = 0; i < x.length; i++) {
+        selElmnt = x[i].getElementsByTagName("select")[0];
+        /*for each element, create a new DIV that will act as the selected item:*/
+        a = document.createElement("DIV");
+        a.setAttribute("class", "select-selected");
+        a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+        x[i].appendChild(a);
+        /*for each element, create a new DIV that will contain the option list:*/
+        b = document.createElement("DIV");
+        b.setAttribute("class", "select-items select-hide");
+        for (j = 1; j < selElmnt.length; j++) {
+            /*for each option in the original select element,
+            create a new DIV that will act as an option item:*/
+            c = document.createElement("DIV");
+            c.innerHTML = selElmnt.options[j].innerHTML;
+            c.addEventListener("click", function (e) {
+                /*when an item is clicked, update the original select box,
+                and the selected item:*/
+                var i, s, h;
+                s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+                h = this.parentNode.previousSibling;
+                for (i = 0; i < s.length; i++) {
+                    if (s.options[i].innerHTML == this.innerHTML) {
+                        s.selectedIndex = i;
+                        h.innerHTML = this.innerHTML;
+                        break;
+                    }
+                }
+                h.click();
+            });
+            b.appendChild(c);
+        }
+        x[i].appendChild(b);
+        a.addEventListener("click", function (e) {
+            /*when the select box is clicked, close any other select boxes,
+            and open/close the current select box:*/
+            e.stopPropagation();
+            closeAllSelect(this);
+            this.nextSibling.classList.toggle("select-hide");
+            this.classList.toggle("select-arrow-active");
+        });
+    }
+
+    function closeAllSelect(elmnt) {
+        /*a function that will close all select boxes in the document,
+        except the current select box:*/
+        var x, y, i, arrNo = [];
+        x = document.getElementsByClassName("select-items");
+        y = document.getElementsByClassName("select-selected");
+        for (i = 0; i < y.length; i++) {
+            if (elmnt == y[i]) {
+                arrNo.push(i)
+            } else {
+                y[i].classList.remove("select-arrow-active");
+            }
+        }
+        for (i = 0; i < x.length; i++) {
+            if (arrNo.indexOf(i)) {
+                x[i].classList.add("select-hide");
+            }
+        }
+    }
+
+    /*if the user clicks anywhere outside the select box,
+    then close all select boxes:*/
+    document.addEventListener("click", closeAllSelect);
+</script>
+<script>
+    function openSignUpForm() {
+        document.getElementById("body").style.overflow = "hidden";
+        document.getElementById("form_sign_up_container").style.display = "block";
+    }
+
+    function closeSignUpForm() {
+        document.getElementById("body").style.overflow = "auto";
+        document.getElementById("form_sign_up_container").style.display = "none";
+    }
+
+    function openSignInForm() {
+        document.getElementById("body").style.overflow = "hidden";
+        document.getElementById("form_sign_in_container").style.display = "block";
+    }
+
+    function closeSignInForm() {
+        document.getElementById("body").style.overflow = "auto";
+        document.getElementById("form_sign_in_container").style.display = "none";
+    }
+
+    function displayButtonSignIn() {
+        document.getElementById("sign_up_button").style.display = "none";
+        document.getElementById("sign_in_button").style.display = "block";
+
+        closeSignUpForm();
+    }
+
+    function displayButtonSignUp() {
+        document.getElementById("sign_in_button").style.display = "none";
+        document.getElementById("sign_up_button").style.display = "block";
+
+        closeSignInForm();
+    }
+</script>
+
+</html>

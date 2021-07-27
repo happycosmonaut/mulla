@@ -1,0 +1,219 @@
+table.dataTable thead .sorting_asc {
+    background-image: url(../src/sort_asc.png) !important;
+    /* transition: background-color black; */
+}
+
+table.dataTable thead .sorting_desc {
+    background-image: url(../src/sort_desc.png);
+}
+
+/* Deals table style start */
+
+#dealsTable,
+#dealsTable > thead > tr > th {
+    border: 0 !important;
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+#dealsTable > thead > tr > th,
+#dealsHistoryTable > thead > tr > th {
+    font-family: Roboto;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    color:  rgba(0, 0, 0, 0.8);
+    line-height: 2;
+}
+
+#dealsTable > tbody > tr > td {
+    padding: 10px 18px;
+}
+
+#dealsTable > tbody > tr.even {
+    background-color: #FAFAFA;
+}
+
+#dealsTable_wrapper {
+    padding-bottom: 25px;
+}
+
+#dealsTable_length {
+    /* padding-left: 47.555em; */
+    padding-left: 20px;
+    padding-top: 0.555em;
+    color: rgba 0 0 0, 0.7;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+#dealsTable_info {
+    padding-left: 67.555em;
+    padding-top: 0.7em;
+    color: rgba 0 0 0, 0.7;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+#dealsTable_filter,
+#dealsTable_paginate {
+    padding-right: 20px;
+}
+
+#dealsTable {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#dealsTable_length > label > select,
+#dealsTable_length > label > select:focus,
+#dealsTable_length > label > select:hover,
+#dealsTable_length > label > select:active {
+    outline: none !important;
+    background: transparent;
+    border: 0;
+}
+
+#dealsTable_length {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 57em;
+    padding-bottom: 2.3em;
+}
+
+#dealsTable_filter {
+    display: none;
+}
+
+/* Deals table style end */
+
+/* Deals history table style start */
+
+#dealsHistoryTable,
+#dealsHistoryTable > thead > tr > th {
+    border: 0 !important;
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+#dealsHistoryTable > tbody > tr > td {
+    padding: 5px 18px;
+}
+
+#dealsHistoryTable_wrapper {
+    padding-bottom: 25px;
+}
+
+#dealsHistoryTable_length {
+    /* padding-left: 47.555em; */
+    padding-left: 20px;
+    padding-top: 0.555em;
+    color: rgba 0 0 0, 0.7;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+#dealsHistoryTable_info {
+    padding-left: 65.555em;
+    padding-top: 0.7em;
+    color: rgba 0 0 0, 0.7;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+#dealsHistoryTable_filter,
+#dealsHistoryTable_paginate {
+    padding-right: 20px;
+}
+
+#dealsHistoryTable {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#dealsHistoryTable_length {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 55em;
+    padding-bottom: 2.3em;
+}
+
+#dealsHistoryTable_filter {
+    display: none;
+}
+
+#dealsHistoryTable_length > label > select,
+#dealsHistoryTable_length > label > select:focus
+#dealsHistoryTable_length > label > select:hover,
+#dealsHistoryTable_length > label > select:active {
+    outline: none !important;
+    background: transparent;
+    border: 0;
+}
+
+
+/* Deals history table style end */
+
+/* Pagination start */
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, 
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: #000 !important;
+    border: 0px 
+    solid black;
+    font-weight: 500;
+    background-color: transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, transparent), color-stop(100%, transparent));
+    background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+    background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
+    background: -ms-linear-gradient(top, transparent 0%, transparent 100%);
+    background: -o-linear-gradient(top, transparent 0%, transparent 100%);
+    background: linear-gradient(to bottom, transparent 0%, transparent 100%);
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 1.5em;
+    padding: 0.5em 1em;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    *cursor: hand;
+    color: black !important;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    *cursor: hand;
+    color: black !important;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+    cursor: default;
+    color: #979797 !important;
+    border: 1px solid transparent;
+    background: transparent;
+    box-shadow: none;
+}
+
+/* Pagination end */

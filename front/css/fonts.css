@@ -1,0 +1,665 @@
+
+.bold_black_14_font, .bold_gray_14_font, .bold_white_14_font, .black_14_font{
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1c1c1c;
+}
+
+.black_14_font {
+  font-weight: normal;
+}
+
+.bold_white_14_font{
+  color: white;
+}
+
+
+.bold_gray_14_font{
+  color: #666666;
+}
+
+.top_tab_font_act, .top_tab_gray_font{
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1c1c1c;
+}
+
+.top_tab_gray_font{
+  color: #666666;
+}
+
+.big_title_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.84;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1e1e1e;
+}
+
+.big_bold_darkgray_subtitle_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1c1c1c;
+}
+
+.big_bold_subtitle_font{
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222222;
+}
+
+.gray_font input[type=text], .gray_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.82;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.dark_gray_font input[type=text], .dark_gray_font{
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.82;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5b7094;
+}
+
+.big_white_font{
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.small_white_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.small_gray_underline_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #303030;
+  text-decoration: underline;
+}
+
+.gray_18_underline_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #303030;
+  text-decoration: underline;
+}
+
+.item_title_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222222;
+}
+
+.BTC_ALT_gray_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.89;
+  letter-spacing: normal;
+  text-align: left;
+  color: #666666;
+}
+
+.BTC_ALT_gray_font > .b {
+  font-weight: bold;
+}
+
+.BTC_ALT_small_gray_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 11.5px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.09;
+  letter-spacing: normal;
+  text-align: left;
+  color: #666666;
+}
+
+.white_alias_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.white_title_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 55px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.middle_black_title_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222222;
+}
+
+.small_black_title_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222222;
+}
+
+.small_black_description_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+}
+
+.black_subtitle_16_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222222;
+}
+
+.black_subtitle_think_16_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222222;
+}
+
+.black_bold_subtitle_16_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222222;
+}
+
+.black_subtitle_14_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222222;
+}
+
+.black_subtitle_think_14_font {
+  font-weight: 300;
+}
+
+.dark_gray_14_font, .light_gray_14_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #969696;
+}
+
+.dark_gray_14_font {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.39;
+  color: #525252;
+}
+
+.black_lable_font{
+  object-fit: contain;
+  font-family: ProximaNova;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222222;
+  background-color: #222222;
+}
+
+.big_black_title {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222222;
+}
+
+.big_white_title {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.big_white_subtitle {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.gray_16_font, .gray_underline_16_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: #757575;
+}
+
+.gray_underline_16_font{
+  text-decoration: underline;
+}
+
+.button_12_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222222;
+}
+
+.dark_email_gray_font input[type=text]{
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: #757575;
+}
+
+.black_19_font {
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.white_19_font {
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+}
+
+.gray_18_font{
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #656565;
+}
+
+.black_18_font{
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.sign_in_font{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(3, 3, 3, 0.8);
+}
+
+.sign_up_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #171717;
+}
+
+/* SETTINGS */
+
+.light_gray_bold_15_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.light_gray_15_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.title_black_13_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.gray_12_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 300;
+}
+
+.gray_12_font > b {
+  font-weight: 400;
+  color: black;
+}
+
+.green_12_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: rgba(76, 175, 80, 0.8);
+}
+
+.black_bold_12_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: black;
+}
+
+.black_16_font, .black_bold_16_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #1d1d1d;
+}
+
+.black_bold_16_font {
+  font-weight: 500;
+}
+
+.black_subtitle_card_14_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ACACAC;
+}
+
+.black_subtitle_card_12_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ACACAC;
+}
+
+.black_subtitle_settings_14_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #747474;
+}
+
+.alert_title_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #696969;
+}
+
+.alert_text_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #939393;
+}
+
+.alert_ok_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.alert_cancel_font {
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #000000;
+}

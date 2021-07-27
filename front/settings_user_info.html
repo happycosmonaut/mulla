@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic"
+          rel="stylesheet">
+          <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">      -->
+          <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">      -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">     
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/select.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/matherial.css">
+    <link rel="stylesheet" href="css/radio.css">
+    <link rel="stylesheet" href="css/switch.css">
+    <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/dataTable.css">
+    <title>Mulla</title>
+</head>
+<body id="body_settings" style="overflow: auto;">
+
+<!-- Header Start -->
+
+<div id="header"></div>
+
+<!-- Header End -->
+
+<div class="middle_settings_container">
+   <div id="center_block" class="center_block h_list">
+
+        <!-- Left menu start -->
+
+        <div id="left_menu" class="left">
+            <div id="deals_item" class="item button light_gray_15_font" onclick="getUrl('settings.html'); clickLeftMenu(this);">
+                Deals
+            </div>
+            <div id="deals_map_item" class="item button light_gray_15_font" onclick="getUrl('settings_deals_map.html'); clickLeftMenu(this);">
+                Deals Map
+            </div>
+            <div id="info_item" class="item button active" onclick="getUrl('settings_user_info.html'); clickLeftMenu(this);">
+                User Info
+            </div>
+            <div id="create_deals_item" class="item button light_gray_15_font" onclick="getUrl('settings_create_deal.html'); clickLeftMenu(this);">
+                Create Deal
+            </div>
+        </div>
+
+        <!-- Left menu end -->
+
+        <!-- User info block start -->
+
+        <div id="user_info_block" class="right">
+            <div id="user_info_block_header" class="header">
+                <div class="title black_18_font">
+                    User info
+                </div>
+                <div id="user_info_tabs" class="h_list tab_list">
+                    <div id="deals_history_item" class="item button active top_tab_font_act" onclick="clickUserInfoTab(this)">
+                        DEALS HISTORY
+                    </div>
+                    <div id="card_item" class="item button top_tab_gray_font" onclick="clickUserInfoTab(this)">
+                        CARD
+                    </div>
+                    <div id="settings_item" class="item button top_tab_gray_font" onclick="clickUserInfoTab(this)">
+                        SETTINGS
+                    </div>
+                </div>
+            </div>
+           <div id="user_info_content_block" class="content_block">
+
+                <!-- Deals history block start -->
+
+                <div id="deals_history_block" style="display: block;">
+                    
+                    <!-- Deals history table start -->
+
+                        <div class="table">
+                            <table id="dealsHistoryTable" class="table"></table>
+                        </div>
+
+                    <!-- Deals history table end-->
+
+                </div>
+
+                <!-- Deals history block end -->
+
+                <!-- Card block start -->
+
+                <div id="card_block" style="display: none;">
+                    <div class="h_list">
+                        <div class="item blue">
+                            <div class="item h_list header dropdown">
+                                <div class="item black_subtitle_16_font">
+                                    SBERBANK
+                                </div>
+                                <div class="empty_item"></div>
+                
+                                <a href="#" class="item icon dropbtn">
+                                </a>
+                                <div class="dropdown-content">
+                                    <a href="#">Edit</a>
+                                    <a href="#">Delete</a>
+                                </div>
+                            </div>
+                            <div class="code black_subtitle_card_14_font">
+                                4890494532499274
+                            </div>
+                            <div class="subtitle black_subtitle_card_12_font">
+                                Max
+                            </div>
+                        </div>
+                        <div class="item red">
+                            <div class="item h_list header dropdown">
+                                <div class="item black_subtitle_16_font">
+                                    SBERBANK
+                                </div>
+                                <div class="empty_item"></div>
+                                <a href="#" class="item icon dropbtn">
+                                </a>
+                                <div class="dropdown-content">
+                                    <a href="#">Edit</a>
+                                    <a href="#">Delete</a>
+                                </div>
+                            </div>
+                            <div class="code black_subtitle_card_14_font">
+                                4890494532499274
+                            </div>
+                            <div class="subtitle black_subtitle_card_12_font">
+                                Max
+                            </div>
+                        </div>
+                        <div class="item green">
+                            <div class="item h_list header dropdown">
+                                <div class="item black_subtitle_16_font">
+                                    SBERBANK
+                                </div>
+                                <div class="empty_item"></div>
+                                <a href="#" class="item icon dropbtn">
+                                </a>
+                                <div class="dropdown-content">
+                                    <a href="#">Edit</a>
+                                    <a href="#">Delete</a>
+                                </div>
+                            </div>
+                            <div class="code black_subtitle_card_14_font">
+                                4890494532499274
+                            </div>
+                            <div class="subtitle black_subtitle_card_12_font">
+                                Max
+                            </div>
+                        </div>
+                    </div>
+                   <button class="button black_16_font" onclick="openAddCard()">
+                        Add Card
+                   </button>
+                </div>
+
+                <!-- Card block end -->
+
+                <!-- Settings block start -->
+
+                <div id="settings_block" style="display: none;">
+                    <div class="h_list input_form">
+                        <div class="empty_item">
+                            <div class="title black_subtitle_settings_14_font">
+                                To recieve updates about bew deals from our telegrem bot <br>
+                                Input your telegram ID:
+                            </div>
+                            <div class="h_list">
+                                 <div class="item">
+                                     <div class="group">
+                                         <input type="text" required>
+                                         <span class="highlight"></span>
+                                         <span class="bar"></span>
+                                         <label class="label_input_text">ID</label>
+                                     </div>
+                                 </div>
+                                <button class="item button black_16_font">
+                                     Add ID
+                                </button>
+                            </div>
+                        </div>
+                        <div class="empty_item">
+                            <div class="title black_subtitle_settings_14_font">
+                                If you want Recive news about project, wrote your email:
+                            </div>
+                            <div class="h_list">
+                                 <div class="item">
+                                     <div class="group">
+                                         <input type="text" required>
+                                         <span class="highlight"></span>
+                                         <span class="bar"></span>
+                                         <label class="label_input_text">E-mail</label>
+                                     </div>
+                                 </div>
+                                <button class="item button black_16_font">
+                                     Add Email
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="title">
+                        Security
+                    </div>
+                    <div class="h_list switch">
+                        <div class="item">
+                             Two-factor authentication
+                        </div>
+                        <div class="item">
+                             <input type="checkbox" id="id-name--1" name="set-name" class="switch-input">
+                                 <label for="id-name--1" class="switch-label">
+                                 </label>
+                        </div>
+                    </div>
+                    <button class="button black_16_font">
+                         Save
+                    </button>
+                </div>
+
+               <!-- Settings block end -->
+               
+           </div>
+       </div>
+
+       <!-- User info block end -->
+
+    </div>
+</div>
+
+<!-- Footer Start -->
+
+<div id="footer"></div>
+
+<!-- Footer End -->
+
+<!-- JavaScript Start -->
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="js/jquery.dataTables.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/ResizeSensor.js"></script>
+<!-- JavaScript End -->
+
+</body>
+</html>

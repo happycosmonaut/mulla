@@ -1,0 +1,386 @@
+[
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": false
+    },
+    {
+        "seller": "TestBank (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "TestBank (1000+; 100%) Test 2",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": false
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%) Test 3",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": false
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "TestBank (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": false
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    },
+    {
+        "seller": "SberbankBTC (1000+; 100%)",
+        "coin": "BTC",
+        "amount": "0,5 BTC",
+        "price": "611,000.00 RUB",
+        "payment_method": {
+            "transfer": "Transfers with specific bank:",
+            "bank": "Сбербанк (моментально!)"
+        },
+        "location": "London",
+        "guarantee": true
+    }
+]
